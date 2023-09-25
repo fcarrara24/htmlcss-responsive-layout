@@ -22,6 +22,9 @@ body{
     
 }
 /* utilities */
+section{
+    background-color: var(--color-transparent);
+}
 .hidden{
     display: none;
 }
@@ -133,7 +136,7 @@ img{
 
 header{
     
-    padding: 20px;
+    padding: 0 20px;
     background-color: var(--color-secondary-color);
 }
 
@@ -150,11 +153,11 @@ header{
 
 /* main */
 
-section:nth-child(2n + 0){
+.outer:nth-child(2n + 0){
     background-color: var(--color-primary-color);
 }
 
-section:nth-child(2n + 1){
+.outer:nth-child(2n + 1){
     background-color: var(--color-light-color);
 }
 
@@ -255,6 +258,9 @@ h3{
 
 /* features */
 
+#deadline{
+    padding-bottom: 40px;
+}
 #title-features{
     font-size: 3em;
     line-height: 1.5em;
@@ -264,6 +270,7 @@ h3{
 
 .features-description{
     padding: 20px;
+    
 }
 
 .featured{
@@ -398,8 +405,12 @@ footer a{
 
     .testimonial-first h3{
         font-size: 4em;
+        line-height: 1.2em;
     }
 
+    span .text{
+        padding-bottom: 40px;
+    }
     #deadline .container{
         flex-direction: row;
         flex-wrap: wrap;
@@ -420,3 +431,50 @@ footer a{
     }
 }
 
+@media screen and (min-width: 1200px) {
+    
+
+    .hidden{
+        display: block;
+        
+        
+    }
+
+    .hidden a{
+        text-decoration: none;
+    }
+
+    .hidden li{
+        padding-right: 20px;
+    }
+
+    .header-space, section{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .header-space{
+        padding: 0 50px;
+    }
+
+    .deadline-card{
+        width: calc(100% / 3 - 20px);
+    }
+
+    .about-first{
+        max-width: calc(200% / 3 - 20px);
+    }
+    #Testimonials .container{
+        flex-direction: row;
+    }
+    .about-last{
+        max-width: calc(100% / 3  - 20px);
+    }
+
+    .testimonial-first, .testimonial-sec{
+        
+        max-width: 40%;
+        align-self: flex-end;
+    }
+    
+}

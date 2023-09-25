@@ -20,194 +20,212 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="flex fl-row align-center justify-between">
-      <div class="img-container">
-        <img id="img-logo" src="img/logo.png" alt="Logo" />
-      </div>
-      <div class="hidden">
-        <ul>
-          <li><a href="#">Planning</a></li>
-          <li><a href="#">Testimonials</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a class="btn" id="btn-header" href="#">Get Started</a></li>
-        </ul>
-      </div>
-      <div class="hamburger">
-        <i class="fa-solid fa-bars"></i>
+    <header >
+      <div class="header-space flex fl-row align-center justify-between">
+        <div class="img-container">
+          <img id="img-logo" src="img/logo.png" alt="Logo" />
+        </div>
+        <div class="hamburger flex row align-center">
+          <div class="hidden ">
+            <ul class="flex row">
+              <li><a href="#">Planning</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a class="btn" id="btn-header" href="#">Get Started</a></li>
+            </ul>
+          </div>
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </div>
     </header>
     <main>
-      <section id="Planning">
-        <div class="container flex">
-          <div class="card">
-            <div class="title">
-              <h3>Get a demo Application</h3>
-              <span class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                quam soluta eos molestias, voluptatibus et qui accusamus
-                voluptas enim.
-              </span>
-              <div class="btn" id="btn-planning">
-                <i class="fa-brands fa-apple"></i>&nbsp;App Store
-              </div>
-            </div>
-            <div class="img-container">
-              <img src="img/phone.png" alt="" />
-            </div>
-          </div>
-          <div class="card">
-            <!-- 2 -->
-
-            <div class="svg-container">
-              <i class="fa-solid fa-file-code"></i>
-            </div>
-            <h3 class="centered">Clean Code</h3>
-            <div class="text centered">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              quam soluta eos molestias, voluptatibus et qui accusamus voluptas
-              enim.
-            </div>
-          </div>
-          <div class="card">
-            <!-- 3 -->
-
-            <div class="svg-container">
-              <i class="fa-solid fa-compass-drafting"></i>
-            </div>
-            <h3 class="centered">Web Design</h3>
-            <div class="text centered">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              quam soluta eos molestias, voluptatibus et qui accusamus voluptas
-              enim.
-            </div>
-          </div><div class="card">
-            <!-- 4 -->
-
-            <div class="svg-container">
-              <i class="fa-solid fa-laptop-code"></i>
-            </div>
-            <h3 class="centered">Development</h3>
-            <div class="text centered">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              quam soluta eos molestias, voluptatibus et qui accusamus voluptas
-              enim.
-            </div>
-          </div><div class="card">
-            <!-- 5 -->
-
-            <div class="svg-container">
-              <i class="fa-solid fa-bullhorn"></i>
-            </div>
-            <h3 class="centered">Branding</h3>
-            <div class="text centered">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              quam soluta eos molestias, voluptatibus et qui accusamus voluptas
-              enim.
-            </div>
-          </div>
-          </div>
-        </div>
-      </section>
-      <section id="Testimonials" >
-        <div class=" container flex align-center">
-          
-            <div class="testimonial-first">
-              <div class="img-container">
-                <img src="img/planning1.png" alt="planning 1" />
-              </div>
-          
-              <h3 >Strategic Planning</h3>
-              <span class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                quam soluta eos molestias, voluptatibus et qui accusamus
-                voluptas enim.
-              </span>
-              
-            </div>
-            <div class="testimonial-sec">
-              <div class="img-container">
-                <img src="img/planning2.png" alt="planning 2" />
-              </div>
-              <h3 class="centered">App Development</h3>
-              <div class="text centered">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                quam soluta eos molestias, voluptatibus et qui accusamus
-                voluptas enim.
-              </div>
-              <div class="btn-container centered">
-                <div id="btn-testimonials" class="">
-                  &DownArrow;
+      <div class="outer">
+        <section id="Planning">
+          <div class="container flex">
+            <div class="card">
+              <div class="title">
+                <h3>Get a demo Application</h3>
+                <span class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                  quam soluta eos molestias, voluptatibus et qui accusamus
+                  voluptas enim.
+                </span>
+                <div class="btn" id="btn-planning">
+                  <i class="fa-brands fa-apple"></i>&nbsp;App Store
                 </div>
               </div>
+              <div class="img-container">
+                <img src="img/phone.png" alt="" />
+              </div>
             </div>
-          
-        </div>
-
-      </section>
-      <section id="Features" >
-        <div class="container flex fl-column align-center">
-          
-            
-          </div>
-          <div class="card featured flex row align-center">
-            <div class="img-container ">
-              <img class="circle" src="img/testimonial1.jpg" alt="testimonial" />
-            </div>
-            <div class="feature-title">
-             
+            <div class="card">
+              <!-- 2 -->
+              <div class="svg-container">
+                <i class="fa-solid fa-file-code"></i>
+              </div>
+              <h3 class="centered">Clean Code</h3>
               <div class="text centered">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                quam soluta eos molestias, voluptatibus et qui accusamus
-                voluptas enim.
+                quam soluta eos molestias, voluptatibus et qui accusamus voluptas
+                enim.
               </div>
-              
-              <h3 class="centered">NAT REYNOLDS</h3>
             </div>
-            
-          </div>
-          <div class="card featured flex row align-center">
-            <div class="img-container ">
-              <img class="circle" src="img/testimonial2.jpg" alt="testimonial2" />
-            </div>
-            <div class="feature-title">
-             
+            <div class="card">
+              <!-- 3 -->
+              <div class="svg-container">
+                <i class="fa-solid fa-compass-drafting"></i>
+              </div>
+              <h3 class="centered">Web Design</h3>
               <div class="text centered">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                quam soluta eos molestias, voluptatibus et qui accusamus
-                voluptas enim.
+                quam soluta eos molestias, voluptatibus et qui accusamus voluptas
+                enim.
               </div>
-              
-              <h3 class="centered">CELIA ALMEDA</h3>
-            </div>
-            
-          </div>
-          <div class="card featured flex row align-center">
-            <div class="img-container ">
-              <img class="circle" src="img/testimonial3.jpg" alt="testimonial3" />
-            </div>
-            <div class="feature-title">
-             
+            </div><div class="card">
+              <!-- 4 -->
+              <div class="svg-container">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <h3 class="centered">Development</h3>
               <div class="text centered">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                quam soluta eos molestias, voluptatibus et qui accusamus
-                voluptas enim.
+                quam soluta eos molestias, voluptatibus et qui accusamus voluptas
+                enim.
               </div>
-              
-              <h3 class="centered">BOB ROBERTS</h3>
+            </div><div class="card">
+              <!-- 5 -->
+              <div class="svg-container">
+                <i class="fa-solid fa-bullhorn"></i>
+              </div>
+              <h3 class="centered">Branding</h3>
+              <div class="text centered">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                quam soluta eos molestias, voluptatibus et qui accusamus voluptas
+                enim.
+              </div>
             </div>
-            
+            </div>
           </div>
-        </div>
-      </section>
-      <section id="deadline">
-        <h2 class="centered deadline-title">Benefits of working with us</h2>
-        <div class="container flex fl-column">
-          
+        </section>
+      </div>
+      <div class="outer">
+        <section id="Testimonials" >
+          <div class=" container flex align-center justify-between">
         
-        <div class="card deadline-card">
-          
-            <h4  class="dead-card-title">01</h4>
+              <div class="testimonial-first">
+                <div class="img-container">
+                  <img src="img/planning1.png" alt="planning 1" />
+                </div>
+        
+                <h3 >Strategic Planning</h3>
+                <span class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                  quam soluta eos molestias, voluptatibus et qui accusamus
+                  voluptas enim.
+                </span>
+        
+              </div>
+              <div class="testimonial-sec">
+                <div class="img-container">
+                  <img src="img/planning2.png" alt="planning 2" />
+                </div>
+                <h3 class="centered">App Development</h3>
+                <div class="text centered">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                  quam soluta eos molestias, voluptatibus et qui accusamus
+                  voluptas enim.
+                </div>
+                <div class="btn-container centered">
+                  <div id="btn-testimonials" class="">
+                    &DownArrow;
+                  </div>
+                </div>
+              </div>
+        
+          </div>
+        </section>
+      </div>
+      <div class="outer">
+        <section id="Features" >
+          <div class="container flex fl-column align-center">
+        
+        
+            </div>
+            <div class="card featured flex row align-center">
+              <div class="img-container ">
+                <img class="circle" src="img/testimonial1.jpg" alt="testimonial" />
+              </div>
+              <div class="feature-title">
+        
+                <div class="text centered">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                  quam soluta eos molestias, voluptatibus et qui accusamus
+                  voluptas enim.
+                </div>
+        
+                <h3 class="centered">NAT REYNOLDS</h3>
+              </div>
+        
+            </div>
+            <div class="card featured flex row align-center">
+              <div class="img-container ">
+                <img class="circle" src="img/testimonial2.jpg" alt="testimonial2" />
+              </div>
+              <div class="feature-title">
+        
+                <div class="text centered">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                  quam soluta eos molestias, voluptatibus et qui accusamus
+                  voluptas enim.
+                </div>
+        
+                <h3 class="centered">CELIA ALMEDA</h3>
+              </div>
+        
+            </div>
+            <div class="card featured flex row align-center">
+              <div class="img-container ">
+                <img class="circle" src="img/testimonial3.jpg" alt="testimonial3" />
+              </div>
+              <div class="feature-title">
+        
+                <div class="text centered">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                  quam soluta eos molestias, voluptatibus et qui accusamus
+                  voluptas enim.
+                </div>
+        
+                <h3 class="centered">BOB ROBERTS</h3>
+              </div>
+        
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="outer">
+        <section id="deadline">
+          <h2 class="centered deadline-title">Benefits of working with us</h2>
+          <div class="container flex fl-column">
+        
+        
+          <div class="card deadline-card">
+        
+              <h4  class="dead-card-title">01</h4>
+              <h4  class="dead-card-subtitle">High Quality</h4>
+              <span class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                quam soluta eos molestias, voluptatibus et qui accusamus
+                voluptas enim.
+              </span>
+              <div class="btn" id="btn-features">
+                more
+              </div>
+        
+          </div>
+          <div class="card deadline-card">
+        
+            <h4  class="dead-card-title">02</h4>
             <h4  class="dead-card-subtitle">High Quality</h4>
             <span class="text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
@@ -217,11 +235,11 @@
             <div class="btn" id="btn-features">
               more
             </div>
-          
+        
         </div>
         <div class="card deadline-card">
-          
-          <h4  class="dead-card-title">02</h4>
+        
+          <h4  class="dead-card-title">03</h4>
           <h4  class="dead-card-subtitle">High Quality</h4>
           <span class="text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
@@ -232,10 +250,10 @@
             more
           </div>
         
-      </div>
-      <div class="card deadline-card">
-          
-        <h4  class="dead-card-title">03</h4>
+            </div>
+            <div class="card deadline-card">
+        
+        <h4  class="dead-card-title">04</h4>
         <h4  class="dead-card-subtitle">High Quality</h4>
         <span class="text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
@@ -245,98 +263,88 @@
         <div class="btn" id="btn-features">
           more
         </div>
-      
-    </div>
-    <div class="card deadline-card">
-          
-      <h4  class="dead-card-title">04</h4>
-      <h4  class="dead-card-subtitle">High Quality</h4>
-      <span class="text">
+            
+          </div>
+          <div class="card deadline-card">
+            
+            <h4  class="dead-card-title">05</h4>
+            <h4  class="dead-card-subtitle">High Quality</h4>
+            <span class="text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
         quam soluta eos molestias, voluptatibus et qui accusamus
         voluptas enim.
-      </span>
-      <div class="btn" id="btn-features">
+            </span>
+            <div class="btn" id="btn-features">
         more
-      </div>
-    
-  </div>
-  <div class="card deadline-card">
-          
-    <h4  class="dead-card-title">05</h4>
-    <h4  class="dead-card-subtitle">High Quality</h4>
-    <span class="text">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-      quam soluta eos molestias, voluptatibus et qui accusamus
-      voluptas enim.
-    </span>
-    <div class="btn" id="btn-features">
-      more
-    </div>
-  
-</div>
-<div class="card deadline-card">
-          
-  <h4  class="dead-card-title">06</h4>
-  <h4  class="dead-card-subtitle">High Quality</h4>
-  <span class="text">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-    quam soluta eos molestias, voluptatibus et qui accusamus
-    voluptas enim.
-  </span>
-  <div class="btn" id="btn-features">
-    more
-  </div>
-
-</div>
-        </div>
-        
+            </div>
           
         </div>
-      </section>
-      <section id="About-Us">
-        <div class="container flex ">
-          <div class="about-first">
-            <h2 class="about-title">
-              About Us
-            </h2>
-              <div class="space-bottom">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore quis consequuntur! Excepturi corrupti, numquam similique cum praesentium totam incidunt accusamus odio id unde, ab harum possimus beatae, reprehenderit omnis accusantium error magni deserunt necessitatibus? Autem deserunt voluptatum ducimus magni, dignissimos itaque sunt eos neque numquam laudantium, iure, quaerat quae?
-              </div>
+        <div class="card deadline-card">
             
-              <div class="space-bottom">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore quis consequuntur! Excepturi corrupti, numquam similique cum praesentium totam incidunt accusamus odio id unde, ab harum possimus beatae, reprehenderit omnis accusantium error magni deserunt necessitatibus? Autem deserunt voluptatum ducimus magni, dignissimos itaque sunt eos neque numquam laudantium, iure, quaerat quae?
+          <h4  class="dead-card-title">06</h4>
+          <h4  class="dead-card-subtitle">High Quality</h4>
+          <span class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            quam soluta eos molestias, voluptatibus et qui accusamus
+            voluptas enim.
+          </span>
+          <div class="btn" id="btn-features">
+            more
+          </div>
+        
+        </div>
+          </div>
+        
+        
+          </div>
+        </section>
+      </div>
+      <div class="outer">
+        <section  id="About-Us">
+          <div class="container flex ">
+            <div class="about-first">
+              <h2 class="about-title">
+                About Us
+              </h2>
+                <div class="space-bottom">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore quis consequuntur! Excepturi corrupti, numquam similique cum praesentium totam incidunt accusamus odio id unde, ab harum possimus beatae, reprehenderit omnis accusantium error magni deserunt necessitatibus? Autem deserunt voluptatum ducimus magni, dignissimos itaque sunt eos neque numquam laudantium, iure, quaerat quae?
+                </div>
+        
+                <div class="space-bottom">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore quis consequuntur! Excepturi corrupti, numquam similique cum praesentium totam incidunt accusamus odio id unde, ab harum possimus beatae, reprehenderit omnis accusantium error magni deserunt necessitatibus? Autem deserunt voluptatum ducimus magni, dignissimos itaque sunt eos neque numquam laudantium, iure, quaerat quae?
+                </div>
+            </div>
+            <div class="about-last">
+              <div class="img-container width-200">
+                <img class="circle" src="img/about.jpg" alt="about">
               </div>
-          </div>
-          <div class="about-last">
-            <div class="img-container width-200">
-              <img class="circle" src="img/about.jpg" alt="about">
-            </div>
-            <h3 class="about-title">I help companies tincidunt tortur aliquam nullafacilisi cras fermatur odio</h3>
-            <div class="btn" id="btn-about-us">
-              <i class="fa-brands fa-linkedin"></i>
-              <span>
-                Find me on Linkedin
-              </span>
+              <h3 class="about-title">I help companies tincidunt tortur aliquam nullafacilisi cras fermatur odio</h3>
+              <div class="btn" id="btn-about-us">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>
+                  Find me on Linkedin
+                </span>
+              </div>
             </div>
           </div>
-
-        </div>
-      </section>
-      <section id="Get-Started">
-        <div class="get-top">
-          GET STARTED
-        </div>
-        <h3 class="get-start">Simple, Transparent Pricing</h3>
-        <h2 class="get-yellow">It's Free</h2>
-        <div class="">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ipsa sequi velit eius assumenda. Mollitia?
-        </div>
-        <div class="btn" id="btn-get-started">Get Started</div>
-        <div class="get-description">
-          Copyright 2021 Boolean Lorem ipsum dolor sit.
-        </div>
-      </section>
+        </section>
+      </div>
+      <div class="outer">
+        <section  id="Get-Started">
+          <div class="get-top">
+            GET STARTED
+          </div>
+          <h3 class="get-start">Simple, Transparent Pricing</h3>
+          <h2 class="get-yellow">It's Free</h2>
+          <div class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ipsa sequi velit eius assumenda. Mollitia?
+          </div>
+          <div class="btn" id="btn-get-started">Get Started</div>
+          <div class="get-description">
+            Copyright 2021 Boolean Lorem ipsum dolor sit.
+          </div>
+        </section>
+      </div>
       
     </main>
     <footer>
