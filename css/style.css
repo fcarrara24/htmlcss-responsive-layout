@@ -316,12 +316,57 @@ h3{
     padding-bottom: 30px;
     font-size: 3em;
     color: var(--color-primary-color);
+    line-height: 1em;
 }
 
 .space-bottom{
     margin-bottom: 1.5em;
     line-height: 2em;
 }
+
+.width-200{
+    width: 200px;
+}
+
+/* get started */
+#Get-Started{
+    margin-top: 50px;
+    padding: 50px 20px;
+    color: white;
+    text-align: center;
+}
+
+#btn-get-started{
+    margin: 30px auto;
+
+}
+
+.get-yellow{
+    font-size: 3em;
+    color: var(--color-contrast-color);
+}
+
+.get-start{
+    font-size: 2em;
+    line-height: 1.5em;
+    color: var(--color-light-color);
+}
+
+/* footer */
+
+
+footer{
+    background-color: var(--color-dark-color);
+    color: var(--color-light-color);
+}
+.footer-section{
+    padding: 40px 0;
+}
+
+footer a{
+    color: var(--color-primary-color);
+}
+
 
 @media screen and (min-width: 768px){
     #Planning > .container{
