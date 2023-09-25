@@ -187,9 +187,15 @@ h3{
 }
 
 
+.flex .feaure-title{
+    flex-shrink: 1;
+}
+
 .card > .img-container> img{
     margin: 0 auto;
-    max-width: 200px;
+    max-width: 100%;
+    padding: 40px 0;
+    
 }
 
 .svg-container {
@@ -314,7 +320,7 @@ h3{
 .about-title{
     padding-top: 50px;
     padding-bottom: 30px;
-    font-size: 3em;
+    font-size: 2em;
     color: var(--color-primary-color);
     line-height: 1em;
 }
@@ -403,4 +409,14 @@ footer a{
         
         width: calc(100% / 2 - 20px);
     }
+
+    #About-Us .container {
+        flex-direction: row;
+       justify-content: space-between;
+       align-items: flex-start;
+    }
+    .about-first, .about-last{
+        max-width: calc(100% / 2 - 20px);
+    }
 }
+
