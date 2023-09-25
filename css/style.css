@@ -322,3 +322,40 @@ h3{
     margin-bottom: 1.5em;
     line-height: 2em;
 }
+
+@media screen and (min-width: 768px){
+    #Planning > .container{
+        gap: 20px;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        
+    }
+    #Planning .card{
+        
+        width: calc(100% / 3 - 20px);
+        align-self: stretch;
+    }
+    #Planning  .card:first-child{
+        
+        width: calc(200% / 3 - 20px);
+    }
+    .card > .img-container{
+        justify-content: flex-start;
+    }
+
+
+    .testimonial-first h3{
+        font-size: 4em;
+    }
+
+    #deadline .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .deadline-card{
+        
+        width: calc(100% / 2 - 20px);
+    }
+}
