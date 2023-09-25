@@ -93,3 +93,34 @@
     color: var(--color-primary-color);
     border-radius: 30px;
 }
+
+
+ul{
+    list-style-type: none;
+}
+
+.img-container{
+    display: block;
+    width: 100%;
+}
+img{
+    display: block;
+}
+
+/* header */
+
+header{
+    padding: 20px;
+    background-color: var(--color-secondary-color);
+}
+
+#img-logo{
+    width: 100px;
+    
+}
+
+.hamburger{
+    
+    font-size: 2em;
+    color: var(--color-light-color);
+}
