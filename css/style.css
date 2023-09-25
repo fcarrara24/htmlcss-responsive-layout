@@ -3,3 +3,93 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+	--color-secondary-color: #0084FD;
+	--color-dark-color: #333333;
+	--color-light-color: #FFFFFF;
+	--color-primary-color: #9792E4;
+	--color-bg-card: #B5DDFF;
+	--color-contrast-color: #FCC060;
+	--color-text: #424242;
+
+    --color-transparent: rgba(255, 0, 0, 0);
+}
+
+/* utilities */
+.hidden{
+    display: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.fl-row{
+    flex-direction: row;
+}
+
+.fl-column{
+    flex-direction: column;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.btn{
+    color: var(--color-light-color);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#btn-header{
+    background-color: var(--color-light-color);
+    color: var(--color-dark-color);
+}
+
+#btn-planning{
+    background-color: var(--color-secondary-color);
+    
+}
+
+#btn-testimonials{
+    background-color: var(--color-primary-color);
+    color: black;
+    
+    font-size: 1.5em;
+    letter-spacing: 1.5em;
+    border-radius: 50%;
+}
+
+#btn-features{
+    background-color: var(--color-primary-color);
+    
+    font-weight: bolder;
+    padding: 10px 20px;
+}
+
+#btn-about-us{
+    background-color: var(--color-primary-color);
+    
+    font-weight: bolder;
+    padding: 5px;
+
+}
+
+
+#btn-get-started{
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: var(--color-light-color);
+    color: var(--color-primary-color);
+    border-radius: 30px;
+}
