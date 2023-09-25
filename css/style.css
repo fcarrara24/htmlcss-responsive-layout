@@ -246,3 +246,36 @@ h3{
     padding-bottom: 20px;
     margin: 40px 0; ;
 }
+
+/* features */
+
+#title-features{
+    font-size: 3em;
+    line-height: 1.5em;
+    margin: 20px 0; 
+    color: var(--color-primary-color);
+}
+
+.features-description{
+    padding: 20px;
+}
+
+.featured{
+    background-color: var(--color-primary-color);
+}
+
+.feature-title > .text{
+    color: var(--color-light-color);
+}
+
+.feature-title > h3{
+    color: var(--color-light-color);
+}
+
+.circle{
+    border-radius: 50%;
+    max-width: 250px;
+    min-height: 250px;
+    
+    object-fit: cover;
+}
